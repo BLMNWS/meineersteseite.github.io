@@ -1,0 +1,123 @@
+@import url(https://fonts.googleapis.com/css?family=Michroma&display=swap);
+
+body {
+    font-family: Michroma, serif;
+    background: linear-gradient(45deg, #0062ff 0%, #ffffff 67%);
+    font-size: 0.8rem
+}
+p {
+    color: black;
+}
+.navbar {
+    background: linear-gradient(180deg, #0062ff 0%, #ffffff 67%);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(70, 70, 254);
+    font-size: 1rem;
+}
+.navbar-light .navbar-nav .nav-link.active {
+    color: blue;
+    font-size: 1.1em;
+}
+.navbar-brand img {
+    width: 35px;
+    border-radius: 2.5rem;
+    box-shadow: 5px 5px 10px 2px #00619e;
+    
+}
+.navbar-toggler {
+    border-style: solid;
+    border-width: 0.15rem;
+    box-shadow: 5px 5px 10px 2px #00619e;
+}
+.card {
+    box-shadow: 5px 5px 10px 2px #00619e;
+}
+.card img {
+    width: 150px;
+    height: 150px;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.card-text {
+    width: 150px;
+    height: 100px; 
+}
+.card-title {
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+.card a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.sidebar {
+    background: linear-gradient(230deg, #0062ff 0%, #ffffff 67%);
+    box-shadow: 5px 5px 10px 2px #00619e;
+    border-radius: 0.35rem;
+}
+.slide-text, .footer-text {
+    color: black;
+    margin-block: auto;
+}
+.btn-outline-primary {
+    color: black;
+    margin-block: auto;
+    border-color: black;
+    
+    
+}
+.fuß {
+        border-top: solid;
+        border-width: 0.1rem;
+        padding-top: 1rem;
+        
+}
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: ceneter;
+}
+.fuß img {
+    margin-inline: 1rem;
+    border-radius: 1.5rem;
+}
+.call {
+    animation: anruf 2s ease 1s 100 normal forwards;
+}
+
+@keyframes anruf {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+@media (max-width: 760px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
